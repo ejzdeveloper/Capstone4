@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping Cart - Home</title>
+    <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div id="site">
+    <header id="masthead">
+      <h1>Piece of Cake Co. <span class="tagline">Healthy and unique delights</h1>
+    </header>
+  <div id="content">
+  <div id="products">
+  <ul>
+  <li>
+  <div class="product-image">
+  <img src="imgs/carrot.JPG" alt="Carrot Dessert">
+  </div>
+  <div class="product-description" data-name="Carrot Dessert" data-price="15">
+  <h3 class="product-name">Carrot Dessert</h3>
+  <p class="product-price">$15</p>
+  <div>
+  <button onclick="onClick('Carrot Dessert', 15)" class="btn">Add to Cart</button>
+  </div>
+  </div>
+  </li>
+
+  <li>
+  <div class="product-image">
+  <img src="imgs/hazelnut.JPG" alt="Hazelnut Cheesecake" />
+  </div>
+  <div class="product-description" data-name="Hazelnut Cheesecake" data-price="30">
+  <h3 class="product-name">Hazelnut Cheesecake</h3>
+  <p class="product-price">$30</p>
+  <div>
+  <button onclick="onClick('Hazelnut Cheesecake', 30)" class="btn">Add to Cart</button>
+  </div>
+  </div>
+  </li>
+
+  <li>
+  <div class="product-image">
+  <img src="imgs/mango.JPG" alt="Mango Cheesecake" />
+  </div>
+  <div class="product-description" data-name="Mango Cheesecake" data-price="30">
+  <h3 class="product-name">Mango Cheesecake</h3>
+              <p class="product-price">$30</p>
+  <div>
+  <button onclick="onClick('Mango Cheesecake', 30)" class="btn">Add to Cart</button>
+  </div>
+  </div>
+  </li>
+
+          <li>
+  <div class="product-image">
+  <img src="imgs/prettyCarrot.JPG" alt="Big Carrot Dessert" />
+  </div>
+  <div class="product-description" data-name="Big Carrot Dessert" data-price="25">
+  <h3 class="product-name">Big Carrot Dessert</h3>
+  <p class="product-price">$25</p>
+  <div>
+  <button onclick="onClick('Big Carrot Dessert', 25)" class="btn">Add to Cart</button>
+  </div>
+  </div>
+  </li>
+
+          <li>
+  <div class="product-image">
+  <img src="imgs/caramel.JPG" alt="Caramel Cheesecake" />
+  </div>
+  <div class="product-description" data-name="Caramel Cheesecake" data-price="30">
+  <h3 class="product-name">Caramel Cheesecake</h3>
+  <p class="product-price">$30</p>
+  <div>
+  <button onclick="onClick('Caramel Cheesecake', 30)" class="btn">Add to Cart</button>
+  </div>
+  </div>
+  </li>
+
+          <li>
+  <div class="product-image">
+  <img src="imgs/heart.JPG" alt="Strawberry Chocolate Cake" />
+  </div>
+  <div class="product-description" data-name="Strawberry Chocolate Cake" data-price="30">
+  <h3 class="product-name">Strawberry Chocolate Cake</h3>
+  <p class="product-price">$30</p>
+  <div>
+  <button onclick="onClick('Strawberry Chocolate Cake', 30)" class="btn">Add to Cart</button>
+  </div>
+  </div>
+  </li>
+  </ul>
+  </div>
+  </div>
+  </div>
+  <div class="checkout">
+    <hr>
+    <h3>Your Cart: </h3> <button onclick="checkout()" class="btn">Checkout</button>
+    <div class="items">
+      <span id="display"></span>
+    </div>
+    <div class="total">
+      <span id="total"></span>
+    </div>
+  </div>
+  </body>
+  <footer id="site-info">
+  Copyright &copy; Jackie Zablah
+  </footer>
+  </html>
